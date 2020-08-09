@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/WilsonFuentesW/coursera-bootstrap/issues"
   },
-  "homepage": "https://github.com/WilsonFuentesW/coursera-bootstrap#readme"
+  "homepage": "https://github.com/WilsonFuentesW/coursera-bootstrap#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
 }
