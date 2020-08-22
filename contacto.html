@@ -24,10 +24,10 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-              <li class="nav-item active"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
+              <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
               <li class="nav-item"><a class="nav-link" href="precios.html">Precios</a></li>
               <li class="nav-item"><a class="nav-link" href="#">Términos y condiciones</a></li>
-              <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+              <li class="nav-item active"><a class="nav-link" href="contacto.html">Contacto</a></li>
             </ul>
           </div>
     </nav>
@@ -40,13 +40,57 @@
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
               <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-              <li class="breadcrumb-item active" aria-current="page">Nosotros</li>
+              <li class="breadcrumb-item active" aria-current="page">Contacto</li>
             </ol>
           </nav>
 
-        <span>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, fuga quaerat. Beatae, provident voluptates quisquam aperiam dignissimos aliquid repellendus, vel quam officiis et totam necessitatibus tenetur labore suscipit sapiente obcaecati! Ipsam beatae sunt nobis in quod a nostrum! Asperiores quae ab iste perspiciatis nobis aspernatur saepe exercitationem neque voluptatum architecto accusantium vero, corporis provident reprehenderit id numquam magni animi! Ratione, nisi incidunt provident voluptatum voluptatibus harum quisquam laudantium? Incidunt repellat error optio iusto eos possimus dolor animi eveniet, corporis saepe. Veniam voluptates obcaecati aperiam, maxime ipsa cumque nesciunt quasi aliquid inventore voluptatem beatae placeat quidem consequatur architecto maiores ad dicta.
-        </span>
+
+          <h3>Dejame tu comentario</h3>
+          <form action="">
+            <div class="form-row">
+                <div class="form-group col-sm-6">
+                    <label for="txtNombre">Nombre</label>
+                    <input type="text" class="form-control" id="txtNombre" placeholder="Ingrese su nombre">
+                </div>
+                <div class="form-group col-sm-6">
+                    <label for="txtApellido">Apellido</label>
+                    <input type="text" class="form-control" id="txtApellido" placeholder="Ingrese su apellido">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="txtEmail">Email</label>
+                <input type="email" class="form-control" id="txtEmail" placeholder="Ingrese su Email">
+            </div>
+
+            <div class="form-row">
+                <div class="form-group col-sm-6">
+                    <label for="txtDireccion">Dirección</label>
+                    <input type="text" class="form-control" id="txtDireccion" placeholder="Ingrese su dirección">
+                </div>
+                <div class="form-group col-sm-6">
+                    <label for="txtCiudad">Ciudad</label>
+                    <select id="txtCiudad" class="form-control">
+                        <option selected>Santiago</option>
+                        <option>Valparaíso</option>
+                        <option>Concepción</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="txtComentario">Comentario</label>
+                <textarea id="txtComentario" class="form-control" rows="10"></textarea>
+            </div>
+            <div class="form-group">
+                <div class="form-check">
+                    <input type="checkbox" id="txtContactame" class="form-check-input">
+                    <label for="txtContactame" class="form-check-label">
+                        Quiero que me contacten
+                    </label>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary"> Enviar</button>
+          </form>
+
     </div>
 
     <footer>
